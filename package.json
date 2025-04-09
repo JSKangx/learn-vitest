@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:rutn": "vitest run",
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
     "next": "14.2.24",
