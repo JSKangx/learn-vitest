@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { add } from "./math";
+import { add } from "../src/utils/math";
 
 describe("add 함수", () => {
   it("두 숫자의 합을 반환한다", () => {
