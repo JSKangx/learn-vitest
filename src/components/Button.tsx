@@ -1,5 +1,5 @@
-type Props = { label: string };
+type Props = { label: string; onClick?: () => void };
 
-export default function Button({ label }: Props) {
-  return <button>{label}</button>;
+export default function Button({ label, onClick }: Props) {
+  return <button onClick={onClick}>{label}</button>;
 }
